@@ -1,0 +1,71 @@
+
+
+*{margin:0 ;padding:0;}
+li{list-style: none;}
+img{vertical-align: top;}
+
+.top{width: 100%; height: 43px; line-height: 43px;
+    border-bottom: 1px solid #f0f0f0;text-align: right;
+    padding: 0 80px;box-sizing: border-box;}
+.top li{display:inline-block; }
+.top li::after{content:"·";display:inline-block;margin:0 6px;}
+.top li:last-child::after{display:none;}
+.top a{text-decoration: none; color:#000;}
+
+#logo{float: left; margin-left: 100px;}
+#logo img{width:120px;height:120px;}
+
+.gnb_menu{margin-left: 550px;}
+.gnb_menu li{height: 22px; padding:16px 0; display: inline-block ;font-size: 20px; font-family: "Noto Sans KR"; 
+line-height: 22px; color: #fff; text-decoration: none; justify-content:center;}
+.gnb_menu a{text-decoration:none;color: #444; display: inline-block; font-size: 15px; padding: 0 25px; position: relative;}
+
+
+
+
+main{margin:60px 0 0;}
+
+#main_view .swiper-slide{position: relative;}
+#main_view .title{position:absolute; top:115px; left:265px; font-size:47px; color:#fff;
+            font-family:'GowunBatang-Regular';}
+#main_view .font{position:absolute; top:35px; left:850px; height:30px;}           
+#main_view .more{position:absolute; bottom:250px; left:250px; 
+                font-family:'GangwonEduPowerExtraBoldA';color: #fff;
+                padding:5px; padding-top: 15px; border: 2px solid #fff; }
+#main_view .more a{ text-decoration:none; color:#fff;}            
+#main_view .news{position:absolute; bottom:150px; left:250px; font-family:'GangwonEduPowerExtraBoldA';color: #fff;}
+
+#chatbot{float: right;}
+#chatbot img{ width:70px ; height:50px;}
+#sns{text-align: center;}
+#sns li{display:inline-block; margin:20px 20px;}
+#sns img{ width: 30px; height: 30px;}
+
+#art .bg_box h2{text-align: center; margin-top: 100px;font-size: 52px;
+    line-height: 1.2; vertical-align: top; font-family: 'BookkMyungjo-Bd'}
+
+.bg_1{background: #3e4870;}
+.bg_2{background: #6b4070;}
+.bg_3{background: #2b5180;}
+.bg_4{background: #802b6e;}
+
+#art article{width: 50%; height:530px; border :5px solid #000; 
+        box-sizing: border-box ; float:left; position:relative;}
+#art .left .art_color{width:2000px; position:absolute;
+        top: 0;right: -140px;}
+#art .art_color ul li{width:2000px;height:480px; position:relative;}
+#art .art_color .gal{position:absolute; width: 500px; top:112px; right:150px}
+#art .art_color h3{  font-size: 18px; color: #e0c799; margin: 25px 5px;
+    letter-spacing: 1px;}
+#art .art_color P{font-size: 36px; color: #fff; line-height: 56px; text-decoration: none;
+    font-family: 'BookkMyungjo-Bd';margin-bottom: 53px;}
+#art .art_color a{ font-family:'GangwonEduPowerExtraBoldA';color: #fff;
+    padding:5px; padding-top: 15px; border: 2px solid #fff; margin-top: 43px; text-decoration: none;
+}
+
+#art .prev .i{position: absolute; bottom: 100px ;right:100px; z-index: 100;
+                        color:#000; width:auto;height:50px;}
+#art .prev .i{position: absolute; bottom: 100px ;right:100px; z-index: 100;
+                        color:#000; width:50px;height:50px;}
+
+#art .right .art_color1 img{display: inline-block;}                        
